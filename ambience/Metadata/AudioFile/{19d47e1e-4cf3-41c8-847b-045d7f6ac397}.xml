@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{19d47e1e-4cf3-41c8-847b-045d7f6ac397}">
+		<property name="assetPath">
+			<value>sfx/ambience/tavern/oneshots/mice/mice_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.38764172335600905</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e4d58228-c6d3-40a7-a57c-7bdab9528562}</destination>
+		</relationship>
+	</object>
+</objects>

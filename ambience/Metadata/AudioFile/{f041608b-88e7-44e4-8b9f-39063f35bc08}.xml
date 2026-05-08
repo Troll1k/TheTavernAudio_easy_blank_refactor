@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f041608b-88e7-44e4-8b9f-39063f35bc08}">
+		<property name="assetPath">
+			<value>sfx/player/jump/stone/jump_start_stone_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.35455782312925171</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e4d58228-c6d3-40a7-a57c-7bdab9528562}</destination>
+		</relationship>
+	</object>
+</objects>

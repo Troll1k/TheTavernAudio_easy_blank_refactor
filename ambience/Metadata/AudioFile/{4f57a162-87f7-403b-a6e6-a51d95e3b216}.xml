@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4f57a162-87f7-403b-a6e6-a51d95e3b216}">
+		<property name="assetPath">
+			<value>sfx/player/running/wood/Footsteps_Wood_Run_02 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.35397916666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e4d58228-c6d3-40a7-a57c-7bdab9528562}</destination>
+		</relationship>
+	</object>
+</objects>
