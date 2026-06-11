@@ -99,7 +99,7 @@ MonoBehaviour:
   Path: ../../../../Desktop/ambience/Build/Desktop/ambience.bank
   Name: ambience
   StudioPath: bank:/ambience
-  lastModified: 639167775377520668
+  lastModified: 639167782453067112
   FileSizes:
   - Name: Desktop
     Value: 8498688
@@ -201,10 +201,10 @@ MonoBehaviour:
   Path: ../../../../Desktop/ambience/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639167774613080452
+  lastModified: 639167782453304535
   FileSizes:
   - Name: Desktop
-    Value: 1564704
+    Value: 1564864
   Exists: 1
 --- !u!114 &-2472699075663523396
 MonoBehaviour:
@@ -249,10 +249,10 @@ MonoBehaviour:
   Path: ../../../../Desktop/ambience/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639167774613095515
+  lastModified: 639167782453329680
   FileSizes:
   - Name: Desktop
-    Value: 1562
+    Value: 1600
   Exists: 1
 --- !u!114 &-1051859379218341305
 MonoBehaviour:
@@ -318,7 +318,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2408021083066930597}
   cacheVersion: 131859
-  cacheTime: 639167775377520668
+  cacheTime: 639167782453329680
   SerializableEventsDict:
   - key: event:/land
     index: 0
