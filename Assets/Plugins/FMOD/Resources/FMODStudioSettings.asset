@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ambience/ambience.fspro
-  sourceBankPath: ambience/Build
+  sourceProjectPath: ../../../../Desktop/ambience/ambience.fspro
+  sourceBankPath: ../../../../Desktop/ambience/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
