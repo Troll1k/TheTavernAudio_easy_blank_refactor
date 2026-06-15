@@ -99,10 +99,10 @@ MonoBehaviour:
   Path: ../../../../Desktop/ambience/Build/Desktop/ambience.bank
   Name: ambience
   StudioPath: bank:/ambience
-  lastModified: 639167782453067112
+  lastModified: 639171301496853748
   FileSizes:
   - Name: Desktop
-    Value: 8498688
+    Value: 8500960
   Exists: 1
 --- !u!114 &-5165819685801963820
 MonoBehaviour:
@@ -154,7 +154,7 @@ MonoBehaviour:
   - {fileID: -5289505667436749162}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -201,10 +201,10 @@ MonoBehaviour:
   Path: ../../../../Desktop/ambience/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639167782453304535
+  lastModified: 639171299329499089
   FileSizes:
   - Name: Desktop
-    Value: 1564864
+    Value: 1565696
   Exists: 1
 --- !u!114 &-2472699075663523396
 MonoBehaviour:
@@ -249,10 +249,10 @@ MonoBehaviour:
   Path: ../../../../Desktop/ambience/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639167782453329680
+  lastModified: 639171299329512947
   FileSizes:
   - Name: Desktop
-    Value: 1600
+    Value: 1822
   Exists: 1
 --- !u!114 &-1051859379218341305
 MonoBehaviour:
@@ -318,7 +318,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2408021083066930597}
   cacheVersion: 131859
-  cacheTime: 639167782453329680
+  cacheTime: 639171301496853748
   SerializableEventsDict:
   - key: event:/land
     index: 0

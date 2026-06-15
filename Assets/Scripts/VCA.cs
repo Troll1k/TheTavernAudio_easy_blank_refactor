@@ -12,6 +12,7 @@ public class VCA : MonoBehaviour
     private FMOD.Studio.VCA musicVCA;
     private FMOD.Studio.VCA tavernVCA;
     private FMOD.Studio.VCA outsideVCA;
+    private FMOD.Studio.VCA miceVCA;
 
     // Flagi stanu wyciszenia.
     [SerializeField]
@@ -22,14 +23,17 @@ public class VCA : MonoBehaviour
     private bool tavernMuteActive = false;
     [SerializeField]
     private bool outsideMuteActive = false;
+    [SerializeField]
+    private bool miceMuteActive = false;
 
     void Start()
     {
         // Pobiera VCAs z FMOD.
-        globalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Mute");
-        musicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Music");
-        tavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Tavern_amb");
-        outsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/Outside_amb");
+        globalVCA = FMODUnity.RuntimeManager.GetVCA("vca:/mute");
+        musicVCA = FMODUnity.RuntimeManager.GetVCA("vca:/music");
+        tavernVCA = FMODUnity.RuntimeManager.GetVCA("vca:/tavern_amb");
+        outsideVCA = FMODUnity.RuntimeManager.GetVCA("vca:/outside");
+        miceVCA = FMODUnity.RuntimeManager.GetVCA("vca:/mice");
 
         // Ustawia początkową głośność.
         globalVCA.setVolume(DecibelToLinear(-100));
@@ -38,21 +42,26 @@ public class VCA : MonoBehaviour
     void Update()
     {
         // Sprawdza, czy klawisze zostały naciśnięte i wywołuje odpowiednią funkcję.
-        if (Input.GetKeyDown(KeyCode.U))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             ToggleMute(globalVCA, ref globalMuteActive);
         }
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.M))
         {
             ToggleMute(musicVCA, ref musicMuteActive);
         }
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             ToggleMute(tavernVCA, ref tavernMuteActive);
         }
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.O))
         {
             ToggleMute(outsideVCA, ref outsideMuteActive);
+
+        }
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            ToggleMute(miceVCA, ref miceMuteActive);
         }
     }
 
